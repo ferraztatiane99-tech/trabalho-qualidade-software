@@ -17,7 +17,7 @@ body {
 /* --- Cabeçalho --- */
 .page-header {
     /* Linha 19 - CORRETA */
-    background-image: linear-gradient(rgba(15, 32, 63, 0.7), rgba(15, 32, 63, 0.7)), url('img/header-background.jpg');
+    background-image: linear-gradient(rgba(15, 32, 63, 0.7), rgba(15, 32, 63, 0.7)), url('header-background.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -66,4 +66,5 @@ footer {
 footer p {
     margin: 5px 0;
     font-size: 0.9rem;
+
 }
