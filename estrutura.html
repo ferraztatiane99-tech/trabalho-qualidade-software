@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualidade de Software - Um Guia Completo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/CSS.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Qualidade de Software</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#definicao">Definição</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pilares">Pilares</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testes">Testes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ferramentas">Ferramentas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Garantindo a Excelência Digital</h1>
+            <p class="lead">Uma imersão nos processos e pilares da Qualidade de Software.</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+
+        <section id="definicao" class="mb-5 pt-5">
+            <h2 class="section-title"><span>O que é</span> Qualidade de Software?</h2>
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <p>Qualidade de Software é um conjunto de características que medem o quão bem um produto de software satisfaz os requisitos implícitos e explícitos dos seus stakeholders. Vai muito além da simples ausência de defeitos, abrangendo performance, segurança, usabilidade e a capacidade de manutenção do código a longo prazo.</p>
+                    <p>Um software de alta qualidade não apenas funciona como esperado, mas também proporciona uma experiência positiva ao usuário e é sustentável do ponto de vista técnico e de negócio.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/foto.jpg" class="img-fluid rounded-3 shadow" alt="Conceito de qualidade de software">
+                </div>
+            </div>
+        </section>
+
+        <section id="pilares" class="mb-5 pt-5">
+            <h2 class="section-title"><span>Os 8 Pilares</span> da Qualidade (ISO/IEC 25010)</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4"><div class="card h-100"><div class="card-body text-center"><i class="fas fa-tasks fa-2x mb-3"></i><h5>Adequação Funcional</h5><p>Funções que atendem às necessidades.</p></div></div></div>
+                <div class="col-md-6 col-lg-3 mb-4"><div class="card h-100"><div class="card-body text-center"><i class="fas fa-tachometer-alt fa-2x mb-3"></i><h5>Eficiência de Performance</h5><p>Uso otimizado de recursos.</p></div></div></div>
+                <div class="col-md-6 col-lg-3 mb-4"><div class="card h-100"><div class="card-body text-center"><i class="fas fa-comments fa-2x mb-3"></i><h5>Compatibilidade</h5><p>Coexistência com outros sistemas.</p></div></div></div>
+                <div class="col-md-6 col-lg-3 mb-4"><div class="card h-100"><div class="card-body text-center"><i class="fas fa-mouse-pointer fa-2x mb-3"></i><h5>Usabilidade</h5><p>Fácil de usar e aprender.</p></div></div></div>
+                <div class="col-md-6 col-lg-3 mb-4"><div class="card h-100"><div class="card-body text-center"><i class="fas fa-shield-alt fa-2x mb-3"></i><h5>Confiabilidade</h5><p>Operação consistente e sem falhas.</p></div></div></div>
+                <div class="col-md-6 col-lg-3 mb-4"><div class="card h-100"><div class="card-body text-center"><i class="fas fa-lock fa-2x mb-3"></i><h5>Segurança</h5><p>Proteção contra ameaças.</p></div></div></div>
+                <div class="col-md-6 col-lg-3 mb-4"><div class="card h-100"><div class="card-body text-center"><i class="fas fa-wrench fa-2x mb-3"></i><h5>Manutenibilidade</h5><p>Facilidade para modificar e evoluir.</p></div></div></div>
+                <div class="col-md-6 col-lg-3 mb-4"><div class="card h-100"><div class="card-body text-center"><i class="fas fa-exchange-alt fa-2x mb-3"></i><h5>Portabilidade</h5><p>Adaptação a diferentes ambientes.</p></div></div></div>
+            </div>
+        </section>
+
+        <section id="testes" class="mb-5 pt-5">
+            <h2 class="section-title"><span>O Processo</span> de Teste</h2>
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <img src="img/testing-process.png" class="img-fluid rounded-3 shadow" alt="Ciclo de vida do teste de software">
+                </div>
+                <div class="col-md-7">
+                    <h4>Níveis de Teste Essenciais</h4>
+                    <p>O teste de software é um processo estruturado para garantir que o produto final atenda aos requisitos. Ele é dividido em níveis:</p>
+                    <ul>
+                        <li><strong>Teste de Unidade:</strong> Verifica o menor pedaço de código testável, como uma função ou método, de forma isolada.</li>
+                        <li><strong>Teste de Integração:</strong> Garante que diferentes módulos ou serviços do sistema funcionem juntos corretamente.</li>
+                        <li><strong>Teste de Sistema:</strong> Testa o sistema completo e integrado para avaliar se ele cumpre todos os seus requisitos.</li>
+                        <li><strong>Teste de Aceitação:</strong> Realizado pelo cliente ou usuário final para validar se o sistema atende às suas necessidades e pode ser implantado.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="ferramentas" class="mb-5 pt-5">
+            <h2 class="section-title"><span>Ferramentas</span> Essenciais do Ecossistema de QA</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4"><div class="card h-100"><div class="card-body"><h5 class="card-title">Selenium</h5><p class="card-text">Automação de testes de interface de usuário em navegadores web.</p></div></div></div>
+                <div class="col-md-4 mb-4"><div class="card h-100"><div class="card-body"><h5 class="card-title">Jira</h5><p class="card-text">Gerenciamento de projetos, rastreamento de bugs e fluxo de trabalho ágil.</p></div></div></div>
+                <div class="col-md-4 mb-4"><div class="card h-100"><div class="card-body"><h5 class="card-title">Postman</h5><p class="card-text">Ferramenta para projetar, construir e testar APIs de forma eficiente.</p></div></div></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+        <p class="mb-0">Projeto sobre Qualidade de Software desenvolvido por Tatiane Gimenes Ferraz.</p>
+        <p>Análise e Desenvolvimento de Sistemas - 2025 Cruzeiro do Sul</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
